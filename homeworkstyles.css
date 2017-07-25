@@ -1,0 +1,63 @@
+body {
+    min-width: 1280px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: lightgray;
+    margin: 0 auto;
+    height: 100%;
+}
+
+.page {
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    height: 100%;
+}
+
+.content-wrapper {
+    width: 95%;
+    margin: 0 auto;
+    position: relative;
+    background-color: #FFF;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.section-field {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    height: 250px;
+}
+
+.field-left {
+    float: left;
+    width: 50%;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+.field-left img {
+    margin: 0 auto;
+    display: block;
+}
+
+.field-right {
+    float: right;
+    width: 50%;
+    position: relative;
+    display: flex;
+    box-sizing: border-box;
+    height: 36px;
+    text-align: center;
+}
+
+.header div {
+    width: 250px;
+    line-height: 36px;
+}
+
+.header div:hover {
+    cursor: pointer;
+    transition: 1s;
+    font-weight: bold;
+}
