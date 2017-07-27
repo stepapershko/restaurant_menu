@@ -177,3 +177,27 @@ body {
     margin-top: 50px;
     height: 56px;
 }
+
+.loading-button {
+    position: relative;
+    height: 100px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 45px;
+    font-family: 'Playfair Display', serif;
+}
+
+.existing-button {
+    width: 120px;
+    border: 1px solid darkgray;
+    margin: 0 auto;
+}
+
+.existing-button:hover {
+    background: black;
+    color: white;
+    font-weight: bold;
+    transition: 1s;
+    cursor: pointer;
+}
