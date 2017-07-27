@@ -1,7 +1,7 @@
 body {
     min-width: 1280px;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: lightgray;
+    background-color: black;
     margin: 0 auto;
     height: 100%;
 }
@@ -20,6 +20,7 @@ body {
     background-color: #FFF;
     margin-top: 8px;
     margin-bottom: 8px;
+    border-radius: 30px;
 }
 
 .section-field_one {
@@ -37,12 +38,13 @@ body {
     height: 36px;
 }
 
-.field-left img {
+.section-field_one .field-left img {
     margin: 0 auto;
     display: block;
+    margin-top: 4px;
 }
 
-.field-right {
+.section-field_one .field-right {
     float: right;
     width: 50%;
     position: relative;
@@ -50,6 +52,7 @@ body {
     box-sizing: border-box;
     height: 36px;
     text-align: center;
+    font-family: 'Playfair Display', serif;
 }
 
 .header div {
@@ -88,13 +91,89 @@ body {
 
 .the-menu img {
     position: absolute;
-    right: 733px;
+    right: 498px;
     top: 40px;
     width: 152px;
+    left: 50%;
+    margin-left: -76px;
 }
 
 .section-field_two {
-    display: inline-block;
     position: relative;
-    width: 100%;
+    width: 80%;
+    height: 445px;
+    margin: 0 auto;
+    font-size: 14px;
+}
+
+.field-left {
+    width: 40%;
+    margin: 0 auto;
+    float: left;
+    height: 100%;
+}
+
+.field-right {
+    width: 40%;
+    float: right;
+    margin: 0 auto;
+    height: 100%;
+}
+
+.first-block-left {
+    display: flex;
+    margin-top: 50px;
+    height: 56px;
+}
+
+.box1 {
+    width: 465px;
+    line-height: 1px;
+    max-width: 465px;
+}
+
+.box1 h4 {
+    font-family: 'Lato', sans-serif;
+}
+
+.box1 span {
+    color: grey;
+    font-family: 'Playfair Display', serif;
+}
+
+.box2 span {
+    color: darkgray;
+}
+
+.box2 {
+    width: 341px;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+
+.box3 {
+    width: 50px;
+    padding-top: 13px;
+}
+
+.box3 span {
+    font-family: 'Lato', sans-serif;
+}
+
+.second-block-left {
+    display: flex;
+    margin-top: 50px;
+    height: 56px;
+}
+
+.third-block-left {
+    display: flex;
+    margin-top: 50px;
+    height: 56px;
+}
+
+.fourth-block-left {
+    display: flex;
+    margin-top: 50px;
+    height: 56px;
 }
