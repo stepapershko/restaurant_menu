@@ -71,6 +71,26 @@ body {
     width: 100%;
     height: 614px;
     background-size: cover;
+    position: relative;
+}
+
+.page-field-text {
+    position: absolute;
+    color: white;
+    font-family: 'Lemonada', cursive;
+    right: 310px;
+    left: 380px;
+    top: 210px;
+    bottom: 200px;
+    text-align: center;
+}
+
+.page-field-text p {
+    font-size: 30px;
+}
+
+.page-field-text span {
+    font-size: 20px;
 }
 
 .the-menu {
