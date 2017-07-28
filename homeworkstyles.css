@@ -127,7 +127,7 @@ body {
 }
 
 .box1 {
-    width: 465px;
+    width: 545px;
     line-height: 1px;
     max-width: 465px;
 }
@@ -180,7 +180,7 @@ body {
 
 .loading-button {
     position: relative;
-    height: 100px;
+    height: 125px;
     width: 100%;
     margin: 0 auto;
     text-align: center;
@@ -200,4 +200,24 @@ body {
     font-weight: bold;
     transition: 1s;
     cursor: pointer;
+}
+
+.featured-dishes {
+    font-family: 'Lato', sans-serif;
+    margin: 0 auto;
+    width: 80%;
+    height: 50px;
+}
+
+.dishes {
+    display: flex;
+    height: 150px;
+    width: 80%;
+    justify-content: space-between;
+    flex-direction: row;
+    margin: 0 auto;
+}
+
+.pic1 img{
+    width: 75%;
 }
