@@ -180,7 +180,7 @@ body {
 
 .loading-button {
     position: relative;
-    height: 125px;
+    height: 100px;
     width: 100%;
     margin: 0 auto;
     text-align: center;
@@ -211,13 +211,142 @@ body {
 
 .dishes {
     display: flex;
-    height: 150px;
+    height: 180px;
     width: 80%;
     justify-content: space-between;
     flex-direction: row;
     margin: 0 auto;
+    font-family: 'Lato', sans-serif;
 }
 
 .pic1 img{
     width: 75%;
+}
+
+.gallery-header {
+    font-family: 'Lato', sans-serif;
+    margin: 0 auto;
+    width: 80%;
+    margin-top: 50px;
+}
+
+.thegallery {
+    width: 80%;
+    height: 400px;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.left-gallery {
+    width: 33%;
+    background-image: url(img/img5.jpg);
+    height: 357px;
+    max-height: 357px;
+    background-size: cover;
+}
+
+.left-gallery img {
+    height: 100px;
+}
+
+.mid-gallery {
+    width: 33%;
+    height: 357px;
+}
+
+.mid-gallery-left {
+    height: 50%;
+    background-size: cover;
+    background: url(img/Gallery_img_4.jpg);
+    background-repeat: round;
+}
+
+.mid-gallery-right {
+    height: 50%;
+    background-size: cover;
+    background: url(img/gallery_img_3.jpg);
+    background-repeat: round;
+}
+
+.right-gallery {
+    width: 33%;
+    height: 357px;
+}
+
+.right-gallery-left {
+    width: 100%;
+    height: 50%;
+    background: url(img/gallery_img_1.jpg);
+    background-size: cover;
+    background-repeat: round;
+}
+
+.right-gallery-right {
+    width: 100%;
+    height: 50%;
+    background: url(img/gallery_img_2.jpg);
+    background-size: cover;
+    background-repeat: round;
+}
+
+.font-grey {
+    background-color: #3b3b3b;
+    width: 100%;
+    height: 215px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.bot-info {
+    margin: 0 auto;
+    width: 80%;
+    height: 100%;
+    color: white;
+    font-family: 'Playfair Display', serif;
+}
+
+.bot-info div {
+    margin-top: 32px;
+}
+
+.left-bottom-section {
+    float: left;
+    width: 20%;
+}
+
+.mid1-bottom-section {
+    float: left;
+    width: 20%;
+}
+
+.mid2-bottom-section {
+    float: left;
+    width: 20%;
+}
+
+.mid2-bottom-section p:hover {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.right-bottom-section {
+    float: right;
+    width: 20%;
+}
+
+.right-bottom-section span:hover {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.finish {
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: 35px;
+
 }
